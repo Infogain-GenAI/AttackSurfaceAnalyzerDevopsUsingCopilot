@@ -1,0 +1,16 @@
+h
+]D:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\obj\Debug\net5.0\Benchmarks.Version.csutf-8W
+ND:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\AsaDatabaseBenchmark.csutf-8M
+DD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\CommitTest.csutf-8N
+ED:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\CryptoTests.csutf-8j
+aD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\InsertTestsWithIntermittentTransactions.csutf-8a
+XD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\InsertTestsWithoutTransactions.csutf-8V
+MD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\OpenTransactionTest.csutf-8J
+AD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\Program.csutf-8M
+DD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\QueryTests.csutf-8P
+GD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\SetupTimeTest.csutf-8^
+UD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\SystemSqliteDatabaseManager.csutf-8Z
+QD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\SystemSqliteInsertTests.csutf-8b
+YD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\SystemSqliteSqlConnectionHolder.csutf-8Å
+vD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8m
+bD:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\obj\Debug\net5.0\Benchmarks.AssemblyInfo.csutf-8

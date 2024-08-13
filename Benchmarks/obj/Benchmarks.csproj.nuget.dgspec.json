@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Benchmarks\\Benchmarks.csproj": {}
+  },
+  "projects": {
+    "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Benchmarks\\Benchmarks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Benchmarks\\Benchmarks.csproj",
+        "projectName": "Benchmarks",
+        "projectPath": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Benchmarks\\Benchmarks.csproj",
+        "packagesPath": "C:\\Users\\ghulam.saddani\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Benchmarks\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ghulam.saddani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Lib\\Lib.csproj": {
+                "projectPath": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Lib\\Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "BenchmarkDotNet": {
+              "target": "Package",
+              "version": "[0.13.0, )"
+            },
+            "Nerdbank.GitVersioning": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.4.231, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.114.4, )"
+            },
+            "murmurhash": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Lib\\Lib.csproj": {
+      "version": "0.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Lib\\Lib.csproj",
+        "projectName": "Microsoft.CST.AttackSurfaceAnalyzer",
+        "projectPath": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Lib\\Lib.csproj",
+        "packagesPath": "C:\\Users\\ghulam.saddani\\.nuget\\packages\\",
+        "outputPath": "D:\\GIT\\ASA-DevopsUsingCopilot\\AttackSurfaceAnalyzerDevopsUsingCopilot\\Lib\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ghulam.saddani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            },
+            "CompareNETObjects": {
+              "target": "Package",
+              "version": "[4.73.0, )"
+            },
+            "MedallionShell": {
+              "target": "Package",
+              "version": "[1.6.2, )"
+            },
+            "Microsoft.CST.OAT": {
+              "target": "Package",
+              "version": "[1.0.99, )"
+            },
+            "Microsoft.CST.RecursiveExtractor": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.10.0, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.8, )"
+            },
+            "Microsoft.PowerShell.Commands.Diagnostics": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Microsoft.PowerShell.SDK": {
+              "target": "Package",
+              "version": "[7.1.3, )"
+            },
+            "Microsoft.SourceLink.GitHub": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.TSS": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Win32.Registry.AccessControl": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Mono.Posix.NETStandard": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Nerdbank.GitVersioning": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.4.231, )"
+            },
+            "PeNet": {
+              "target": "Package",
+              "version": "[2.6.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Sinks.ApplicationInsights": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Diagnostics.Process": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.IO.FileSystem.AccessControl": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Net.NetworkInformation": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Net.Security": {
+              "target": "Package",
+              "version": "[4.3.2, )"
+            },
+            "System.Runtime": {
+              "target": "Package",
+              "version": "[4.3.1, )"
+            },
+            "System.Security.AccessControl": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Threading.AccessControl": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "WindowsFirewallHelper": {
+              "target": "Package",
+              "version": "[2.0.2.29-beta1, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

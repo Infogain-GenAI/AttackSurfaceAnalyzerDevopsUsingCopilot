@@ -1,0 +1,4854 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'timer' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Scan.razor.g.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 28,
+                  "endLine": 272,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Scan.razor.g.cs",
+                "region": {
+                  "startLine": 272,
+                  "startColumn": 28,
+                  "endLine": 272,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Possible null reference return.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs",
+                "region": {
+                  "startLine": 419,
+                  "startColumn": 39,
+                  "endLine": 419,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'LoadRules' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Author.razor.g.cs",
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 24,
+                  "endLine": 430,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Author.razor.g.cs",
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 24,
+                  "endLine": 430,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Configure.razor.g.cs",
+                "region": {
+                  "startLine": 282,
+                  "startColumn": 9,
+                  "endLine": 282,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Configure.razor.g.cs",
+                "region": {
+                  "startLine": 289,
+                  "startColumn": 9,
+                  "endLine": 289,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Configure.razor.g.cs",
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 32,
+                  "endLine": 276,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Guided.razor.g.cs",
+                "region": {
+                  "startLine": 317,
+                  "startColumn": 161,
+                  "endLine": 317,
+                  "endColumn": 203
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Guided.razor.g.cs",
+                "region": {
+                  "startLine": 394,
+                  "startColumn": 16,
+                  "endLine": 394,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Report.razor.g.cs",
+                "region": {
+                  "startLine": 315,
+                  "startColumn": 101,
+                  "endLine": 315,
+                  "endColumn": 144
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'timer' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Monitor.razor.g.cs",
+                "region": {
+                  "startLine": 293,
+                  "startColumn": 28,
+                  "endLine": 293,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Monitor.razor.g.cs",
+                "region": {
+                  "startLine": 293,
+                  "startColumn": 28,
+                  "endLine": 293,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'timer' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Guided.razor.g.cs",
+                "region": {
+                  "startLine": 409,
+                  "startColumn": 28,
+                  "endLine": 409,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Guided.razor.g.cs",
+                "region": {
+                  "startLine": 409,
+                  "startColumn": 28,
+                  "endLine": 409,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Dereference of a possibly null reference.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Sandbox.razor.g.cs",
+                "region": {
+                  "startLine": 792,
+                  "startColumn": 68,
+                  "endLine": 792,
+                  "endColumn": 71
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'LoadSandbox' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Sandbox.razor.g.cs",
+                "region": {
+                  "startLine": 697,
+                  "startColumn": 24,
+                  "endLine": 697,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Sandbox.razor.g.cs",
+                "region": {
+                  "startLine": 697,
+                  "startColumn": 24,
+                  "endLine": 697,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Non-nullable field 'ScaffoldedObject' must contain a non-null value when exiting constructor. Consider declaring the field as nullable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Sandbox.razor.g.cs",
+                "region": {
+                  "startLine": 893,
+                  "startColumn": 21,
+                  "endLine": 893,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/obj/Debug/net5.0/Razor/Pages/Sandbox.razor.g.cs",
+                "region": {
+                  "startLine": 893,
+                  "startColumn": 21,
+                  "endLine": 893,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3260",
+          "level": "warning",
+          "message": "Private classes which are not derived in the current assembly should be marked as 'sealed'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 775,
+                  "startColumn": 23,
+                  "endLine": 775,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AppData.cs",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 62,
+                  "endLine": 36,
+                  "endColumn": 129
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 369,
+                  "startColumn": 17,
+                  "endLine": 369,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'directorySelectElementGlowClass' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Components/MonitorOptions/FileMonitorOptions.razor",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 22,
+                  "endLine": 47,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'Instance'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 777,
+                  "startColumn": 13,
+                  "endLine": 777,
+                  "endColumn": 105
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'foundResultTypes' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Components/States/Results.razor",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 34,
+                  "endLine": 92,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Components/States/Results.razor",
+                "region": {
+                  "startLine": 93,
+                  "startColumn": 32,
+                  "endLine": 93,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'version' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Home.razor",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 12,
+                  "endLine": 35,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Configure.razor",
+                "region": {
+                  "startLine": 36,
+                  "startColumn": 25,
+                  "endLine": 36,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Configure.razor",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 101,
+                  "endLine": 38,
+                  "endColumn": 175
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Runs' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Analyze.razor",
+                "region": {
+                  "startLine": 52,
+                  "startColumn": 18,
+                  "endLine": 52,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field 'timer' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Analyze.razor",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 29,
+                  "endLine": 102,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field 'timer' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Guided.razor",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 28,
+                  "endLine": 125,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field 'timer' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Monitor.razor",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 28,
+                  "endLine": 53,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Runs' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Report.razor",
+                "region": {
+                  "startLine": 35,
+                  "startColumn": 94,
+                  "endLine": 35,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4487",
+          "level": "warning",
+          "message": "Remove this unread private field 'timer' or refactor the code to use its value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Scan.razor",
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 28,
+                  "endLine": 47,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Types' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 12,
+                  "endLine": 94,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'analyzer' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 96,
+                  "startColumn": 14,
+                  "endLine": 96,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'issues' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 135,
+                  "startColumn": 49,
+                  "endLine": 135,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private method 'RefreshPage'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 71,
+                  "startColumn": 10,
+                  "endLine": 71,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'directorySelectElementGlowClass' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Components/CollectorOptions/FileCollectorOptions.razor",
+                "region": {
+                  "startLine": 67,
+                  "startColumn": 22,
+                  "endLine": 67,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'directorySelectElementGlowClass' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Components/CollectorOptions/RegistryCollectorOptions.razor",
+                "region": {
+                  "startLine": 40,
+                  "startColumn": 22,
+                  "endLine": 40,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 325,
+                  "startColumn": 21,
+                  "endLine": 325,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'TypesList' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 144,
+                  "startColumn": 12,
+                  "endLine": 144,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'ParseErrors' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 269,
+                  "startColumn": 18,
+                  "endLine": 269,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'analyzer' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 271,
+                  "startColumn": 17,
+                  "endLine": 271,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'SandBoxErrors' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 273,
+                  "startColumn": 18,
+                  "endLine": 273,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'values' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 32,
+                  "endLine": 275,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make 'Parameters' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 389,
+                  "startColumn": 32,
+                  "endLine": 389,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'values'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 5,
+                  "endLine": 275,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private field 'Parameters'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 389,
+                  "startColumn": 5,
+                  "endLine": 389,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1144",
+          "level": "warning",
+          "message": "Remove the unused private set accessor in property 'constructorToInvoke'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 283,
+                  "startColumn": 9,
+                  "endLine": 283,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1155",
+          "level": "warning",
+          "message": "Use '.Any()' to test whether this 'IEnumerable<Microsoft.CST.OAT.Violation>' is empty or not.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 35,
+                  "endLine": 43,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3928",
+          "level": "warning",
+          "message": "The parameter name 'AnalysesFile' is not declared in the argument list.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 133,
+                  "endLine": 222,
+                  "endColumn": 185
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1854",
+          "level": "warning",
+          "message": "Remove this useless assignment to local variable 'type'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 17,
+                  "endLine": 120,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2208",
+          "level": "note",
+          "message": "Method AnalyzeMonitored passes 'AnalysesFile' as the paramName argument to a ArgumentNullException constructor. Replace this argument with one of the method's parameter names. Note that the provided parameter name should have the exact casing as declared on the method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 133,
+                  "endLine": 222,
+                  "endColumn": 185
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'message'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 116,
+                  "startColumn": 21,
+                  "endLine": 116,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'stackTrace'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 21,
+                  "endLine": 117,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'name'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Author.razor",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 21,
+                  "endLine": 119,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3168",
+          "level": "warning",
+          "message": "Return 'Task' instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Guided.razor",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 11,
+                  "endLine": 105,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 296,
+                  "startColumn": 21,
+                  "endLine": 296,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 17,
+                  "endLine": 294,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loop should be simplified by calling Select(type => type.FullName))",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 43,
+                  "endLine": 43,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 349,
+                  "startColumn": 51,
+                  "endLine": 349,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 286,
+                  "startColumn": 38,
+                  "endLine": 286,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'First'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 292,
+                  "startColumn": 130,
+                  "endLine": 292,
+                  "endColumn": 135
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 354,
+                  "startColumn": 34,
+                  "endLine": 354,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 13,
+                  "endLine": 356,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 13,
+                  "endLine": 362,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 365,
+                  "startColumn": 17,
+                  "endLine": 365,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 370,
+                  "startColumn": 17,
+                  "endLine": 370,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 372,
+                  "startColumn": 21,
+                  "endLine": 372,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 376,
+                  "startColumn": 21,
+                  "endLine": 376,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 380,
+                  "startColumn": 25,
+                  "endLine": 380,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 29,
+                  "endLine": 383,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 33,
+                  "endLine": 387,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 37,
+                  "endLine": 396,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 403,
+                  "startColumn": 25,
+                  "endLine": 403,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 409,
+                  "startColumn": 25,
+                  "endLine": 409,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 413,
+                  "startColumn": 29,
+                  "endLine": 413,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 417,
+                  "startColumn": 33,
+                  "endLine": 417,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 425,
+                  "startColumn": 25,
+                  "endLine": 425,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 432,
+                  "startColumn": 17,
+                  "endLine": 432,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 436,
+                  "startColumn": 17,
+                  "endLine": 436,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+4 (incl 3 for nesting)",
+              "12": "+5 (incl 4 for nesting)",
+              "13": "+6 (incl 5 for nesting)",
+              "14": "+1",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+2 (incl 1 for nesting)",
+              "2": "+2 (incl 1 for nesting)",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+1",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+5 (incl 4 for nesting)",
+              "8": "+6 (incl 5 for nesting)",
+              "9": "+7 (incl 6 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 444,
+                  "startColumn": 34,
+                  "endLine": 444,
+                  "endColumn": 57
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 446,
+                  "startColumn": 13,
+                  "endLine": 446,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 451,
+                  "startColumn": 13,
+                  "endLine": 451,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 451,
+                  "startColumn": 41,
+                  "endLine": 451,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 457,
+                  "startColumn": 13,
+                  "endLine": 457,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 459,
+                  "startColumn": 17,
+                  "endLine": 459,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 21,
+                  "endLine": 463,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 468,
+                  "startColumn": 21,
+                  "endLine": 468,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 476,
+                  "startColumn": 13,
+                  "endLine": 476,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 476,
+                  "startColumn": 46,
+                  "endLine": 476,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 481,
+                  "startColumn": 17,
+                  "endLine": 481,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 486,
+                  "startColumn": 17,
+                  "endLine": 486,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 494,
+                  "startColumn": 13,
+                  "endLine": 494,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 513,
+                  "startColumn": 13,
+                  "endLine": 513,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "2": "+1",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 130 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 146,
+                  "startColumn": 10,
+                  "endLine": 146,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 157,
+                  "startColumn": 17,
+                  "endLine": 157,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 21,
+                  "endLine": 159,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 163,
+                  "startColumn": 25,
+                  "endLine": 163,
+                  "endColumn": 32
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 29,
+                  "endLine": 166,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 170,
+                  "startColumn": 29,
+                  "endLine": 170,
+                  "endColumn": 33
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 33,
+                  "endLine": 172,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 175,
+                  "startColumn": 37,
+                  "endLine": 175,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 177,
+                  "startColumn": 41,
+                  "endLine": 177,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 37,
+                  "endLine": 183,
+                  "endColumn": 39
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 192,
+                  "startColumn": 25,
+                  "endLine": 192,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 29,
+                  "endLine": 195,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 197,
+                  "startColumn": 33,
+                  "endLine": 197,
+                  "endColumn": 40
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 37,
+                  "endLine": 201,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 41,
+                  "endLine": 203,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 45,
+                  "endLine": 206,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 206,
+                  "startColumn": 72,
+                  "endLine": 206,
+                  "endColumn": 74
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 210,
+                  "startColumn": 45,
+                  "endLine": 210,
+                  "endColumn": 49
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 217,
+                  "startColumn": 37,
+                  "endLine": 217,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 41,
+                  "endLine": 220,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 225,
+                  "startColumn": 41,
+                  "endLine": 225,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 227,
+                  "startColumn": 45,
+                  "endLine": 227,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 232,
+                  "startColumn": 45,
+                  "endLine": 232,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 244,
+                  "startColumn": 25,
+                  "endLine": 244,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 251,
+                  "startColumn": 13,
+                  "endLine": 251,
+                  "endColumn": 18
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 256,
+                  "startColumn": 13,
+                  "endLine": 256,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+2 (incl 1 for nesting)",
+              "1": "+3 (incl 2 for nesting)",
+              "10": "+5 (incl 4 for nesting)",
+              "11": "+6 (incl 5 for nesting)",
+              "12": "+7 (incl 6 for nesting)",
+              "13": "+8 (incl 7 for nesting)",
+              "14": "+9 (incl 8 for nesting)",
+              "15": "+1",
+              "16": "+1",
+              "17": "+7 (incl 6 for nesting)",
+              "18": "+8 (incl 7 for nesting)",
+              "19": "+8 (incl 7 for nesting)",
+              "2": "+4 (incl 3 for nesting)",
+              "20": "+9 (incl 8 for nesting)",
+              "21": "+9 (incl 8 for nesting)",
+              "22": "+1",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+2 (incl 1 for nesting)",
+              "3": "+5 (incl 4 for nesting)",
+              "4": "+1",
+              "5": "+6 (incl 5 for nesting)",
+              "6": "+7 (incl 6 for nesting)",
+              "7": "+8 (incl 7 for nesting)",
+              "8": "+7 (incl 6 for nesting)",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S2219",
+          "level": "warning",
+          "message": "Use a 'null' check instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 37,
+                  "endLine": 387,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ShouldRemoveGetType": "False",
+              "UseIsOperator": "False"
+            }
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'FirstOrDefault'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 38,
+                  "endLine": 308,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2971",
+          "level": "warning",
+          "message": "Drop 'Where' and move the condition into the 'First'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 315,
+                  "startColumn": 130,
+                  "endLine": 315,
+                  "endColumn": 135
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'results'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 337,
+                  "startColumn": 13,
+                  "endLine": 337,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 471,
+                  "startColumn": 51,
+                  "endLine": 471,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 488,
+                  "startColumn": 47,
+                  "endLine": 488,
+                  "endColumn": 52
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing should be used instead of the \"Enumerable\" extension method \"ElementAt\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 489,
+                  "startColumn": 46,
+                  "endLine": 489,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 354,
+                  "startColumn": 48,
+                  "endLine": 354,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 356,
+                  "startColumn": 25,
+                  "endLine": 356,
+                  "endColumn": 85
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3267",
+          "level": "warning",
+          "message": "Loops should be simplified using the \"Where\" LINQ method",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 59,
+                  "endLine": 201,
+                  "endColumn": 79
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 45,
+                  "endLine": 203,
+                  "endColumn": 67
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 38 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 411,
+                  "startColumn": 13,
+                  "endLine": 411,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 413,
+                  "startColumn": 9,
+                  "endLine": 413,
+                  "endColumn": 11
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 415,
+                  "startColumn": 13,
+                  "endLine": 415,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 420,
+                  "startColumn": 9,
+                  "endLine": 420,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 424,
+                  "startColumn": 9,
+                  "endLine": 424,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 428,
+                  "startColumn": 9,
+                  "endLine": 428,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 13,
+                  "endLine": 430,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 435,
+                  "startColumn": 9,
+                  "endLine": 435,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 437,
+                  "startColumn": 13,
+                  "endLine": 437,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 9,
+                  "endLine": 442,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 444,
+                  "startColumn": 13,
+                  "endLine": 444,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 449,
+                  "startColumn": 9,
+                  "endLine": 449,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 451,
+                  "startColumn": 13,
+                  "endLine": 451,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 456,
+                  "startColumn": 9,
+                  "endLine": 456,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 458,
+                  "startColumn": 13,
+                  "endLine": 458,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 9,
+                  "endLine": 463,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 465,
+                  "startColumn": 13,
+                  "endLine": 465,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 9,
+                  "endLine": 470,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 472,
+                  "startColumn": 13,
+                  "endLine": 472,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 477,
+                  "startColumn": 9,
+                  "endLine": 477,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 479,
+                  "startColumn": 13,
+                  "endLine": 479,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 484,
+                  "startColumn": 9,
+                  "endLine": 484,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 486,
+                  "startColumn": 13,
+                  "endLine": 486,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 491,
+                  "startColumn": 9,
+                  "endLine": 491,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 493,
+                  "startColumn": 13,
+                  "endLine": 493,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 498,
+                  "startColumn": 9,
+                  "endLine": 498,
+                  "endColumn": 13
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 500,
+                  "startColumn": 13,
+                  "endLine": 500,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+1",
+              "11": "+2 (incl 1 for nesting)",
+              "12": "+1",
+              "13": "+2 (incl 1 for nesting)",
+              "14": "+1",
+              "15": "+2 (incl 1 for nesting)",
+              "16": "+1",
+              "17": "+2 (incl 1 for nesting)",
+              "18": "+1",
+              "19": "+2 (incl 1 for nesting)",
+              "2": "+1",
+              "20": "+1",
+              "21": "+2 (incl 1 for nesting)",
+              "22": "+1",
+              "23": "+2 (incl 1 for nesting)",
+              "24": "+1",
+              "25": "+2 (incl 1 for nesting)",
+              "3": "+1",
+              "4": "+1",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+1",
+              "7": "+2 (incl 1 for nesting)",
+              "8": "+1",
+              "9": "+2 (incl 1 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 500,
+                  "startColumn": 13,
+                  "endLine": 500,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 498,
+                  "startColumn": 14,
+                  "endLine": 498,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6580",
+          "level": "warning",
+          "message": "Use a format provider when parsing date and time.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 493,
+                  "startColumn": 17,
+                  "endLine": 493,
+                  "endColumn": 73
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 785,
+                  "startColumn": 21,
+                  "endLine": 785,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 783,
+                  "startColumn": 17,
+                  "endLine": 783,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 793,
+                  "startColumn": 21,
+                  "endLine": 793,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 791,
+                  "startColumn": 17,
+                  "endLine": 791,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 801,
+                  "startColumn": 21,
+                  "endLine": 801,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 799,
+                  "startColumn": 17,
+                  "endLine": 799,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 41 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 612,
+                  "startColumn": 32,
+                  "endLine": 612,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 638,
+                  "startColumn": 13,
+                  "endLine": 638,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 640,
+                  "startColumn": 17,
+                  "endLine": 640,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 662,
+                  "startColumn": 13,
+                  "endLine": 662,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 665,
+                  "startColumn": 17,
+                  "endLine": 665,
+                  "endColumn": 24
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 667,
+                  "startColumn": 21,
+                  "endLine": 667,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 678,
+                  "startColumn": 25,
+                  "endLine": 678,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 685,
+                  "startColumn": 25,
+                  "endLine": 685,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 690,
+                  "startColumn": 25,
+                  "endLine": 690,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 697,
+                  "startColumn": 25,
+                  "endLine": 697,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 702,
+                  "startColumn": 25,
+                  "endLine": 702,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 707,
+                  "startColumn": 25,
+                  "endLine": 707,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 707,
+                  "startColumn": 57,
+                  "endLine": 707,
+                  "endColumn": 59
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 717,
+                  "startColumn": 21,
+                  "endLine": 717,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 737,
+                  "startColumn": 25,
+                  "endLine": 737,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+2 (incl 1 for nesting)",
+              "10": "+4 (incl 3 for nesting)",
+              "11": "+1",
+              "12": "+3 (incl 2 for nesting)",
+              "13": "+4 (incl 3 for nesting)",
+              "2": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "4": "+3 (incl 2 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+4 (incl 3 for nesting)",
+              "9": "+4 (incl 3 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S3247",
+          "level": "warning",
+          "message": "Replace this type-check-and-cast sequence with an 'as' and a null check.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 989,
+                  "startColumn": 25,
+                  "endLine": 989,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 991,
+                  "startColumn": 26,
+                  "endLine": 991,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 891,
+                  "startColumn": 34,
+                  "endLine": 891,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 893,
+                  "startColumn": 13,
+                  "endLine": 893,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 898,
+                  "startColumn": 13,
+                  "endLine": 898,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 902,
+                  "startColumn": 13,
+                  "endLine": 902,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 907,
+                  "startColumn": 13,
+                  "endLine": 907,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 911,
+                  "startColumn": 13,
+                  "endLine": 911,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 913,
+                  "startColumn": 17,
+                  "endLine": 913,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 925,
+                  "startColumn": 13,
+                  "endLine": 925,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 930,
+                  "startColumn": 13,
+                  "endLine": 930,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 939,
+                  "startColumn": 13,
+                  "endLine": 939,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 953,
+                  "startColumn": 13,
+                  "endLine": 953,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 961,
+                  "startColumn": 17,
+                  "endLine": 961,
+                  "endColumn": 22
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 982,
+                  "startColumn": 13,
+                  "endLine": 982,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 989,
+                  "startColumn": 21,
+                  "endLine": 989,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 994,
+                  "startColumn": 17,
+                  "endLine": 994,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+2 (incl 1 for nesting)",
+              "11": "+1",
+              "12": "+2 (incl 1 for nesting)",
+              "13": "+2 (incl 1 for nesting)",
+              "2": "+1",
+              "3": "+1",
+              "4": "+1",
+              "5": "+2 (incl 1 for nesting)",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'selected'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/Pages/Sandbox.razor",
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 29,
+                  "endLine": 190,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1024,
+                  "startColumn": 93,
+                  "endLine": 1024,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1026,
+                  "startColumn": 13,
+                  "endLine": 1026,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1030,
+                  "startColumn": 13,
+                  "endLine": 1030,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1040,
+                  "startColumn": 13,
+                  "endLine": 1040,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1055,
+                  "startColumn": 13,
+                  "endLine": 1055,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1057,
+                  "startColumn": 17,
+                  "endLine": 1057,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1066,
+                  "startColumn": 21,
+                  "endLine": 1066,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1070,
+                  "startColumn": 21,
+                  "endLine": 1070,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1072,
+                  "startColumn": 25,
+                  "endLine": 1072,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1074,
+                  "startColumn": 29,
+                  "endLine": 1074,
+                  "endColumn": 36
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1076,
+                  "startColumn": 33,
+                  "endLine": 1076,
+                  "endColumn": 35
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1085,
+                  "startColumn": 49,
+                  "endLine": 1085,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1084,
+                  "startColumn": 71,
+                  "endLine": 1084,
+                  "endColumn": 73
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1085,
+                  "startColumn": 76,
+                  "endLine": 1085,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1089,
+                  "startColumn": 60,
+                  "endLine": 1089,
+                  "endColumn": 61
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1106,
+                  "startColumn": 17,
+                  "endLine": 1106,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+8 (incl 7 for nesting)",
+              "14": "+1",
+              "2": "+1",
+              "3": "+1",
+              "4": "+2 (incl 1 for nesting)",
+              "5": "+3 (incl 2 for nesting)",
+              "6": "+1",
+              "7": "+4 (incl 3 for nesting)",
+              "8": "+5 (incl 4 for nesting)",
+              "9": "+6 (incl 5 for nesting)"
+            }
+          }
+        },
+        {
+          "ruleId": "S6608",
+          "level": "warning",
+          "message": "Indexing at 0 should be used instead of the \"Enumerable\" extension method \"First\"",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 823,
+                  "startColumn": 41,
+                  "endLine": 823,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6605",
+          "level": "warning",
+          "message": "Collection-specific \"Exists\" method should be used instead of the \"Any\" extension.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 640,
+                  "startColumn": 43,
+                  "endLine": 640,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S6605",
+          "level": "warning",
+          "message": "Collection-specific \"Exists\" method should be used instead of the \"Any\" extension.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 667,
+                  "startColumn": 36,
+                  "endLine": 667,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1116",
+          "level": "warning",
+          "message": "Remove this empty statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 972,
+                  "startColumn": 14,
+                  "endLine": 972,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3217",
+          "level": "warning",
+          "message": "Either change the type of 'c' to 'BaseMonitor' or iterate on a generic collection of type 'FileSystemMonitor'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 953,
+                  "startColumn": 22,
+                  "endLine": 953,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2219",
+          "level": "warning",
+          "message": "Use a 'null' check instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 898,
+                  "startColumn": 17,
+                  "endLine": 898,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ShouldRemoveGetType": "False",
+              "UseIsOperator": "False"
+            }
+          }
+        },
+        {
+          "ruleId": "S1066",
+          "level": "warning",
+          "message": "Merge this if statement with the enclosing one.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1189,
+                  "startColumn": 17,
+                  "endLine": 1189,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1187,
+                  "startColumn": 18,
+                  "endLine": 1187,
+                  "endColumn": 20
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1196,
+                  "startColumn": 33,
+                  "endLine": 1196,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1198,
+                  "startColumn": 13,
+                  "endLine": 1198,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1203,
+                  "startColumn": 13,
+                  "endLine": 1203,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1209,
+                  "startColumn": 13,
+                  "endLine": 1209,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1212,
+                  "startColumn": 17,
+                  "endLine": 1212,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1214,
+                  "startColumn": 21,
+                  "endLine": 1214,
+                  "endColumn": 28
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1216,
+                  "startColumn": 25,
+                  "endLine": 1216,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1278,
+                  "startColumn": 13,
+                  "endLine": 1278,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1278,
+                  "startColumn": 48,
+                  "endLine": 1278,
+                  "endColumn": 50
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1283,
+                  "startColumn": 13,
+                  "endLine": 1283,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1283,
+                  "startColumn": 49,
+                  "endLine": 1283,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1288,
+                  "startColumn": 13,
+                  "endLine": 1288,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1288,
+                  "startColumn": 45,
+                  "endLine": 1288,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1293,
+                  "startColumn": 13,
+                  "endLine": 1293,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1293,
+                  "startColumn": 42,
+                  "endLine": 1293,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1298,
+                  "startColumn": 13,
+                  "endLine": 1298,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1298,
+                  "startColumn": 46,
+                  "endLine": 1298,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1298,
+                  "startColumn": 75,
+                  "endLine": 1298,
+                  "endColumn": 77
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1303,
+                  "startColumn": 13,
+                  "endLine": 1303,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1303,
+                  "startColumn": 49,
+                  "endLine": 1303,
+                  "endColumn": 51
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1308,
+                  "startColumn": 13,
+                  "endLine": 1308,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1308,
+                  "startColumn": 46,
+                  "endLine": 1308,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1313,
+                  "startColumn": 13,
+                  "endLine": 1313,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1313,
+                  "startColumn": 47,
+                  "endLine": 1313,
+                  "endColumn": 49
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1313,
+                  "startColumn": 76,
+                  "endLine": 1313,
+                  "endColumn": 78
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1318,
+                  "startColumn": 13,
+                  "endLine": 1318,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1318,
+                  "startColumn": 46,
+                  "endLine": 1318,
+                  "endColumn": 48
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1323,
+                  "startColumn": 13,
+                  "endLine": 1323,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1323,
+                  "startColumn": 41,
+                  "endLine": 1323,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1323,
+                  "startColumn": 70,
+                  "endLine": 1323,
+                  "endColumn": 72
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1323,
+                  "startColumn": 126,
+                  "endLine": 1323,
+                  "endColumn": 128
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1328,
+                  "startColumn": 13,
+                  "endLine": 1328,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1328,
+                  "startColumn": 41,
+                  "endLine": 1328,
+                  "endColumn": 43
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1328,
+                  "startColumn": 69,
+                  "endLine": 1328,
+                  "endColumn": 71
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1333,
+                  "startColumn": 13,
+                  "endLine": 1333,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1333,
+                  "startColumn": 45,
+                  "endLine": 1333,
+                  "endColumn": 47
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1338,
+                  "startColumn": 13,
+                  "endLine": 1338,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1338,
+                  "startColumn": 44,
+                  "endLine": 1338,
+                  "endColumn": 46
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1343,
+                  "startColumn": 13,
+                  "endLine": 1343,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1343,
+                  "startColumn": 42,
+                  "endLine": 1343,
+                  "endColumn": 44
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1349,
+                  "startColumn": 13,
+                  "endLine": 1349,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1355,
+                  "startColumn": 13,
+                  "endLine": 1355,
+                  "endColumn": 15
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1359,
+                  "startColumn": 13,
+                  "endLine": 1359,
+                  "endColumn": 17
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1361,
+                  "startColumn": 17,
+                  "endLine": 1361,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1383,
+                  "startColumn": 17,
+                  "endLine": 1383,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1387,
+                  "startColumn": 17,
+                  "endLine": 1387,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1396,
+                  "startColumn": 13,
+                  "endLine": 1396,
+                  "endColumn": 20
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1408,
+                  "startColumn": 17,
+                  "endLine": 1408,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+1",
+              "1": "+1",
+              "10": "+1",
+              "11": "+1",
+              "12": "+1",
+              "13": "+1",
+              "14": "+1",
+              "15": "+1",
+              "16": "+1",
+              "17": "+1",
+              "18": "+1",
+              "19": "+1",
+              "2": "+1",
+              "20": "+1",
+              "21": "+1",
+              "22": "+1",
+              "23": "+1",
+              "24": "+1",
+              "25": "+1",
+              "26": "+1",
+              "27": "+1",
+              "28": "+1",
+              "29": "+1",
+              "3": "+2 (incl 1 for nesting)",
+              "30": "+1",
+              "31": "+1",
+              "32": "+1",
+              "33": "+1",
+              "34": "+1",
+              "35": "+1",
+              "36": "+1",
+              "37": "+1",
+              "38": "+1",
+              "39": "+1",
+              "4": "+3 (incl 2 for nesting)",
+              "40": "+1",
+              "41": "+1",
+              "42": "+2 (incl 1 for nesting)",
+              "43": "+2 (incl 1 for nesting)",
+              "44": "+1",
+              "45": "+1",
+              "46": "+2 (incl 1 for nesting)",
+              "5": "+4 (incl 3 for nesting)",
+              "6": "+1",
+              "7": "+1",
+              "8": "+1",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S2219",
+          "level": "warning",
+          "message": "Use a 'null' check instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1212,
+                  "startColumn": 21,
+                  "endLine": 1212,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ShouldRemoveGetType": "False",
+              "UseIsOperator": "False"
+            }
+          }
+        },
+        {
+          "ruleId": "S2583",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'True'. Some code paths are unreachable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1516,
+                  "startColumn": 26,
+                  "endLine": 1516,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1517,
+                  "startColumn": 26,
+                  "endLine": 1517,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2583",
+          "level": "warning",
+          "message": "Change this condition so that it does not always evaluate to 'False'. Some code paths are unreachable.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1514,
+                  "startColumn": 26,
+                  "endLine": 1514,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1514,
+                  "startColumn": 29,
+                  "endLine": 1514,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1075",
+          "level": "warning",
+          "message": "Refactor your code not to use hardcoded absolute paths or URIs.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 630,
+                  "startColumn": 46,
+                  "endLine": 630,
+                  "endColumn": 99
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1836",
+          "level": "note",
+          "message": "Prefer 'IsEmpty' over 'Count' to determine whether the object is empty",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1072,
+                  "startColumn": 29,
+                  "endLine": 1072,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft",
+              "ShouldNegateKey": null
+            }
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'EndEvent'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1395,
+                  "startColumn": 40,
+                  "endLine": 1395,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'EndEvent'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Cli/AttackSurfaceAnalyzerClient.cs",
+                "region": {
+                  "startLine": 1037,
+                  "startColumn": 40,
+                  "endLine": 1037,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1836": {
+          "id": "CA1836",
+          "shortDescription": "Prefer IsEmpty over Count",
+          "fullDescription": "For determining whether the object contains or not any items, prefer using 'IsEmpty' property rather than retrieving the number of items from the 'Count' property and comparing it to 0 or 1.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1836",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2208": {
+          "id": "CA2208",
+          "shortDescription": "Instantiate argument exceptions correctly",
+          "fullDescription": "A call is made to the default (parameterless) constructor of an exception type that is or derives from ArgumentException, or an incorrect string argument is passed to a parameterized constructor of an exception type that is or derives from ArgumentException.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2208",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Dereference of a possibly null reference.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Possible null reference return.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Non-nullable field must contain a non-null value when exiting constructor. Consider declaring as nullable.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1066": {
+          "id": "S1066",
+          "shortDescription": "Mergeable \"if\" statements should be combined",
+          "fullDescription": "Nested code - blocks of code inside blocks of code - is eventually necessary, but increases complexity. This is why keeping the code as flat as possible, by avoiding unnecessary nesting, is considered a good practice.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1066",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1075": {
+          "id": "S1075",
+          "shortDescription": "URIs should not be hardcoded",
+          "fullDescription": "Hard-coding a URI makes it difficult to test a program for a variety of reasons:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1075",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and have three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1116": {
+          "id": "S1116",
+          "shortDescription": "Empty statements should be removed",
+          "fullDescription": "Empty statements represented by a semicolon ; are statements that do not perform any operation. They are often the result of a typo or a misunderstanding of the language syntax. It is a good practice to remove empty statements since they don’t add value and lead to confusion and errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1116",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1144": {
+          "id": "S1144",
+          "shortDescription": "Unused private types or members should be removed",
+          "fullDescription": "This rule raises an issue when a private/internal type or member is never referenced in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1144",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1155": {
+          "id": "S1155",
+          "shortDescription": "\"Any()\" should be used to test for emptiness",
+          "fullDescription": "When you call Any(), it clearly communicates the code’s intention, which is to check if the collection is empty. Using Count() == 0 for this purpose is less direct and makes the code slightly more complex. However, there are some cases where special attention should be paid:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1155",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Commented-out code distracts the focus from the actual executed code. It creates a noise that increases maintenance code. And because it is never executed, it quickly becomes out of date and invalid.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "An unused local variable is a variable that has been declared but is not used anywhere in the block of code where it is defined. It is dead code, contributing to unnecessary complexity and leading to confusion when reading the code. Therefore, it should be removed from your code to maintain clarity and efficiency.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1854": {
+          "id": "S1854",
+          "shortDescription": "Unused assignments should be removed",
+          "fullDescription": "Dead stores refer to assignments made to local variables that are subsequently never used or immediately overwritten. Such assignments are unnecessary and don’t contribute to the functionality or clarity of the code. They may even negatively impact performance. Removing them enhances code cleanliness and readability. Even if the unnecessary operations do not do any harm in terms of the program’s correctness, they are - at best - a waste of computing resources.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2219": {
+          "id": "S2219",
+          "shortDescription": "Runtime type checking should be simplified",
+          "fullDescription": "To check the type of an object there are several options:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2219",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2583": {
+          "id": "S2583",
+          "shortDescription": "Conditionally executed code should be reachable",
+          "fullDescription": "Conditional expressions which are always true or false can lead to unreachable code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2583",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2971": {
+          "id": "S2971",
+          "shortDescription": "LINQ expressions should be simplified",
+          "fullDescription": "In the interests of readability, code that can be simplified should be simplified. To that end, there are several ways IEnumerable language integrated queries (LINQ) can be simplified. This not only improves readabilty but can also lead to improved performance.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2971",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3168": {
+          "id": "S3168",
+          "shortDescription": "\"async\" methods should not return \"void\"",
+          "fullDescription": "An async method with a void return type does not follow the task asynchronous programming (TAP) model since the return type should be Task or Task<TResult>",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3168",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3217": {
+          "id": "S3217",
+          "shortDescription": "\"Explicit\" conversions of \"foreach\" loops should not be used",
+          "fullDescription": "The foreach statement was introduced in the C# language prior to generics to make it easier to work with the non-generic collections available at that time such as ArrayList. The foreach statements allow you to downcast elements of a collection of Objects to any other type.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3217",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3247": {
+          "id": "S3247",
+          "shortDescription": "Duplicate casts should not be made",
+          "fullDescription": "Because the is operator performs a cast if the object is not null, using is to check type and then casting the same argument to that type, necessarily performs two casts. The same result can be achieved more efficiently with a single cast using as, followed by a null-check.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3247",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3260": {
+          "id": "S3260",
+          "shortDescription": "Non-derived \"private\" classes and records should be \"sealed\"",
+          "fullDescription": "Classes and records with either private or file access modifiers aren’t visible outside of their assemblies or files, so if they’re not extended inside their scope, they should be made explicitly non-extensible with the addition of the sealed keyword.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3260",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3267": {
+          "id": "S3267",
+          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
+          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "This rule raises an issue when the code cognitive complexity of a function is above a certain threshold.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3928": {
+          "id": "S3928",
+          "shortDescription": "Parameter names used into ArgumentException constructors should match an existing one ",
+          "fullDescription": "Some constructors of the ArgumentException, ArgumentNullException, ArgumentOutOfRangeException and DuplicateWaitObjectException classes must be fed with a valid parameter name. This rule raises an issue in two cases:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3928",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4487": {
+          "id": "S4487",
+          "shortDescription": "Unread \"private\" fields should be removed",
+          "fullDescription": "Private fields which are written but never read are a case of \"dead store\". Changing the value of such a field is useless and most probably indicates an error in the code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4487",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6580": {
+          "id": "S6580",
+          "shortDescription": "Use a format provider when parsing date and time",
+          "fullDescription": "When converting a string representation of a date and time to a DateTime object or any other temporal type with one of the available system parsing methods, you should always provide an IFormatProvider parameter.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6580",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6605": {
+          "id": "S6605",
+          "shortDescription": "Collection-specific \"Exists\" method should be used instead of the \"Any\" extension",
+          "fullDescription": "Both the List.Exists method and IEnumerable.Any method can be used to find the first element that satisfies a predicate in a collection. However, List.Exists can be faster than IEnumerable.Any for List objects, as well as requires significantly less memory. For small collections, the performance difference may be negligible, but for large collections, it can be noticeable. The same applies to ImmutableList and arrays too.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6605",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S6608": {
+          "id": "S6608",
+          "shortDescription": "Prefer indexing instead of \"Enumerable\" methods on types implementing \"IList\"",
+          "fullDescription": "Indexes in C# provide direct access to an element at a specific position within an array or collection. When compared to Enumerable methods, indexing can be more efficient for certain scenarios, such as iterating over a large collection, due to avoiding the overhead of checking the underlying collection type before accessing it.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-6608",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

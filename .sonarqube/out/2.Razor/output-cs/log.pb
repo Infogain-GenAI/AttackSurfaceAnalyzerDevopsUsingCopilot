@@ -1,0 +1,1 @@
+Roslyn version: 4.8.0.0Language version: CSharp9!Concurrent execution: enabled‡‚File 'D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\obj\Debug\net5.0\Cli.RazorTargetAssemblyInfo.cs' was recognized as generatedvrFile 'D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\obj\Debug\net5.0\Asa.Version.cs' was recognized as generated

@@ -1,0 +1,618 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Compiler",
+        "version": "4.8.0.0",
+        "fileVersion": "4.8.0-3.23524.11 (f43cd10b)",
+        "semanticVersion": "4.8.0",
+        "language": "en-US"
+      },
+      "results": [
+        {
+          "ruleId": "CA1401",
+          "level": "note",
+          "message": "P/Invoke method 'StartTcpServer' should not be visible",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/TpmSim.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 34,
+                  "endLine": 34,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 27,
+                  "endLine": 43,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1827",
+          "level": "note",
+          "message": "Count() is used where Any() could be used instead to improve performance",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 27,
+                  "endLine": 49,
+                  "endColumn": 98
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "OperationKey": "OperationBinaryLeft"
+            }
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'RegistryView.Default' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/HydrationTests.cs",
+                "region": {
+                  "startLine": 39,
+                  "startColumn": 68,
+                  "endLine": 39,
+                  "endColumn": 104
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'TestSerializeAndDeserializeDriverObject' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/HydrationTests.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 21,
+                  "endLine": 53,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/ExportTests.cs",
+                "region": {
+                  "startLine": 45,
+                  "startColumn": 29,
+                  "endLine": 45,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/ExportTests.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 29,
+                  "endLine": 49,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3415",
+          "level": "warning",
+          "message": "Make sure these 2 arguments are in the correct order: expected value, actual value.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/ExportTests.cs",
+                "region": {
+                  "startLine": 54,
+                  "startColumn": 29,
+                  "endLine": 54,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'RegistryView.Default' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/HydrationTests.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 53,
+                  "endLine": 114,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2925",
+          "level": "warning",
+          "message": "Do not use 'Thread.Sleep()' in a test.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 13,
+                  "endLine": 178,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2925",
+          "level": "warning",
+          "message": "Do not use 'Thread.Sleep()' in a test.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 13,
+                  "endLine": 180,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2925",
+          "level": "warning",
+          "message": "Do not use 'Thread.Sleep()' in a test.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 13,
+                  "endLine": 183,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.CreateEventSource(string, string)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 56
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 39,
+                  "endLine": 104,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.SourceExists(string)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 17,
+                  "endLine": 94,
+                  "endColumn": 46
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.Delete(string)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 17,
+                  "endLine": 98,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLogEntryType.Warning' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 112,
+                  "endLine": 106,
+                  "endColumn": 137
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.Source' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 105,
+                  "startColumn": 13,
+                  "endLine": 105,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.DeleteEventSource(string)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 97,
+                  "startColumn": 17,
+                  "endLine": 97,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.DeleteEventSource(string)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 119,
+                  "startColumn": 13,
+                  "endLine": 119,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.WriteEntry(string, EventLogEntryType, int, short)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 106,
+                  "startColumn": 13,
+                  "endLine": 106,
+                  "endColumn": 146
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1416",
+          "level": "warning",
+          "message": "This call site is reachable on all platforms. 'EventLog.Delete(string)' is only supported on: 'windows'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 13,
+                  "endLine": 120,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/sonarcube_projects/AttackSurfaceAnalyzer/Tests/CollectorTests.cs",
+                "region": {
+                  "startLine": 536,
+                  "startColumn": 21,
+                  "endLine": 536,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1401": {
+          "id": "CA1401",
+          "shortDescription": "P/Invokes should not be visible",
+          "fullDescription": "A public or protected method in a public type has the System.Runtime.InteropServices.DllImportAttribute attribute (also implemented by the Declare keyword in Visual Basic). Such methods should not be exposed.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1401",
+          "properties": {
+            "category": "Interoperability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1416": {
+          "id": "CA1416",
+          "shortDescription": "Validate platform compatibility",
+          "fullDescription": "Using platform dependent API on a component makes the code no longer work across all platforms.",
+          "defaultLevel": "warning",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1416",
+          "properties": {
+            "category": "Interoperability",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1827": {
+          "id": "CA1827",
+          "shortDescription": "Do not use Count() or LongCount() when Any() can be used",
+          "fullDescription": "For non-empty collections, Count() and LongCount() enumerate the entire sequence, while Any() stops at the first item or the first item that satisfies a condition.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1827",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "The rule targets test methods that lack an assertion and consist solely of an action and, optionally, a setup.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2925": {
+          "id": "S2925",
+          "shortDescription": "\"Thread.Sleep\" should not be used in tests",
+          "fullDescription": "Using Thread.Sleep in a test might introduce unpredictable and inconsistent results depending on the environment. Furthermore, it will block the thread, which means the system resources are not being fully used.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2925",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3415": {
+          "id": "S3415",
+          "shortDescription": "Assertion arguments should be passed in the correct order",
+          "fullDescription": "The standard assertions library methods such as AreEqual and AreSame in MSTest and NUnit, or Equal and Same in XUnit, expect the first argument to be the expected value and the second argument to be the actual value.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3415",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

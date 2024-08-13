@@ -1,0 +1,27 @@
+Product projects
+---------------------------------------
+D:\sonarcube_projects\AttackSurfaceAnalyzer\Lib\Lib.csproj
+D:\sonarcube_projects\AttackSurfaceAnalyzer\Benchmarks\Benchmarks.csproj
+D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\Cli.csproj
+
+
+Test projects
+---------------------------------------
+D:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\Tests.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

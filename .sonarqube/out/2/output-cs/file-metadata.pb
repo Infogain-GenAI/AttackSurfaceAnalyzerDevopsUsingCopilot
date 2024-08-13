@@ -1,0 +1,10 @@
+Z
+OD:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\obj\Debug\net5.0\Asa.Version.csutf-8C
+:D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\AppData.csutf-8W
+ND:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\AttackSurfaceAnalyzerClient.csutf-8B
+9D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\Helper.csutf-8H
+?D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\SandboxState.csutf-8C
+:D:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\Startup.csutf-8z
+oD:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8_
+TD:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\obj\Debug\net5.0\Cli.AssemblyInfo.csutf-8d
+YD:\sonarcube_projects\AttackSurfaceAnalyzer\Cli\obj\Debug\net5.0\Cli.RazorAssemblyInfo.csutf-8

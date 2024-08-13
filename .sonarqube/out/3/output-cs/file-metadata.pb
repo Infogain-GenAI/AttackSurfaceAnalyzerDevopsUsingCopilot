@@ -1,0 +1,11 @@
+a
+VD:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\obj\Debug\net5.0\AsaTests.Version.csutf-8N
+ED:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\AsaAnalyzerTests.csutf-8L
+CD:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\CollectorTests.csutf-8I
+@D:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\ExportTests.csutf-8L
+CD:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\HydrationTests.csutf-8U
+LD:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\InMemoryComparatorTests.csutf-8D
+;D:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\TpmSim.csutf-8€
+uC:\Users\h.singh\.nuget\packages\microsoft.net.test.sdk\16.10.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.csutf-8|
+qD:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.csutf-8c
+XD:\sonarcube_projects\AttackSurfaceAnalyzer\Tests\obj\Debug\net5.0\Tests.AssemblyInfo.csutf-8
