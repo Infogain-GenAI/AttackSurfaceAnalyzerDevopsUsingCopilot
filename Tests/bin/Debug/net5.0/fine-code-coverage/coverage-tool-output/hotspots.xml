@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotspots>
+  <Hotspot>
+    <Assembly>Asa</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Cli.AttackSurfaceAnalyzerClient</Class>
+    <MethodName>RunCollectCommand(...)</MethodName>
+    <ShortName />
+    <Line>1197</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>105</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>AsaLib</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Collectors.BaseCompare</Class>
+    <MethodName>Compare(...)</MethodName>
+    <ShortName />
+    <Line>118</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>98</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>AsaLib</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Collectors.FileSystemCollector</Class>
+    <MethodName>FilePathToFileSystemObject(...)</MethodName>
+    <ShortName />
+    <Line>85</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>86</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>AsaLib</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Collectors.ComObjectCollector</Class>
+    <MethodName>ParseComObjects(...)</MethodName>
+    <ShortName />
+    <Line>30</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>56</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>AsaLib</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Collectors.UserAccountCollector</Class>
+    <MethodName>ExecuteOsX(...)</MethodName>
+    <ShortName />
+    <Line>171</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>53</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Asa</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Cli.Pages.Sandbox</Class>
+    <MethodName>GetValueFromJObject(...)</MethodName>
+    <ShortName />
+    <Line>412</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>52</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>Asa</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Cli.AttackSurfaceAnalyzerClient</Class>
+    <MethodName>CompareRuns(...)</MethodName>
+    <ShortName />
+    <Line>1025</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>34</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+  <Hotspot>
+    <Assembly>AsaLib</Assembly>
+    <Class>Microsoft.CST.AttackSurfaceAnalyzer.Collectors.UserAccountCollector</Class>
+    <MethodName>ExecuteWindows(...)</MethodName>
+    <ShortName />
+    <Line>281</Line>
+    <FileIndex>0</FileIndex>
+    <Metrics>
+      <Metric>
+        <Name>Cyclomatic complexity</Name>
+        <Exceeded>true</Exceeded>
+        <Value>34</Value>
+      </Metric>
+    </Metrics>
+  </Hotspot>
+</Hotspots>

@@ -31,7 +31,7 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Asa/0.0.0-ge3ea622e62": {
+      "Asa/0.0.0-g4f866e3cba": {
         "dependencies": {
           "Microsoft.CST.AttackSurfaceAnalyzer": "0.0.0",
           "Microsoft.CST.OAT": "1.0.99",
@@ -3847,7 +3847,7 @@
         "runtime": {
           "AsaLib.dll": {
             "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.60131"
+            "fileVersion": "0.0.0.34383"
           }
         },
         "compile": {
@@ -5495,7 +5495,7 @@
     }
   },
   "libraries": {
-    "Asa/0.0.0-ge3ea622e62": {
+    "Asa/0.0.0-g4f866e3cba": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

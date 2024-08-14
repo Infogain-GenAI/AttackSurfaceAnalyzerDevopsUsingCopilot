@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "AsaTests/0.0.0-ge3ea622e62": {
+      "AsaTests/0.0.0-g4f866e3cba": {
         "dependencies": {
           "MSTest.TestAdapter": "2.2.5",
           "MSTest.TestFramework": "2.2.5",
@@ -3573,7 +3573,7 @@
         "runtime": {
           "Asa.dll": {
             "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.60131"
+            "fileVersion": "0.0.0.34383"
           }
         }
       },
@@ -3581,14 +3581,14 @@
         "runtime": {
           "AsaLib.dll": {
             "assemblyVersion": "0.0.0.0",
-            "fileVersion": "0.0.0.60131"
+            "fileVersion": "0.0.0.34383"
           }
         }
       }
     }
   },
   "libraries": {
-    "AsaTests/0.0.0-ge3ea622e62": {
+    "AsaTests/0.0.0-g4f866e3cba": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
