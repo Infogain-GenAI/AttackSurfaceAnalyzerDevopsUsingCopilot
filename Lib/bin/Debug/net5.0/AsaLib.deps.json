@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "AsaLib/0.0.0-g4f866e3cba": {
+      "AsaLib/0.0.0-g5cd9fde206": {
         "dependencies": {
           "CommandLineParser": "2.8.0",
           "CompareNETObjects": "4.73.0",
@@ -3114,7 +3114,7 @@
     }
   },
   "libraries": {
-    "AsaLib/0.0.0-g4f866e3cba": {
+    "AsaLib/0.0.0-g5cd9fde206": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

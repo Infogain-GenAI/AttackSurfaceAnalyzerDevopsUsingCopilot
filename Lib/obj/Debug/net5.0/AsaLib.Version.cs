@@ -9,8 +9,8 @@
 //------------------------------------------------------------------------------
 
 [assembly: System.Reflection.AssemblyVersionAttribute("0.0.0.0")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.34383")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0+4f866e3cba")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("0.0.0.55644")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("0.0.0+5cd9fde206")]
 #if NETSTANDARD || NETFRAMEWORK || NETCOREAPP
 [System.CodeDom.Compiler.GeneratedCode("Nerdbank.GitVersioning.Tasks","3.4.231.31994")]
 #endif
@@ -19,13 +19,13 @@
 #endif
 internal static partial class ThisAssembly {
     internal const string AssemblyConfiguration = "Debug";
-    internal const string AssemblyFileVersion = "0.0.0.34383";
-    internal const string AssemblyInformationalVersion = "0.0.0+4f866e3cba";
+    internal const string AssemblyFileVersion = "0.0.0.55644";
+    internal const string AssemblyInformationalVersion = "0.0.0+5cd9fde206";
     internal const string AssemblyName = "AsaLib";
     internal const string AssemblyTitle = "AsaLib";
     internal const string AssemblyVersion = "0.0.0.0";
-    internal static readonly System.DateTime GitCommitDate = new System.DateTime(638591485960000000L, System.DateTimeKind.Utc);
-    internal const string GitCommitId = "4f866e3cbaea3d982088dec85d097e815a1ca513";
+    internal static readonly System.DateTime GitCommitDate = new System.DateTime(638592092740000000L, System.DateTimeKind.Utc);
+    internal const string GitCommitId = "5cd9fde20610d95a9c49816a0ec9a2fae44f1df5";
     internal const bool IsPrerelease = false;
     internal const bool IsPublicRelease = false;
     internal const string RootNamespace = "AttackSurfaceAnalyzer";

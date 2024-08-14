@@ -11,7 +11,6 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Runtime.CompilerServices.InternalsVisibleTo("AsaTests")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Microsoft")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© Microsoft Corporation. All rights reserved.")]
