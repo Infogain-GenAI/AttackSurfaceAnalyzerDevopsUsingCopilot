@@ -23,9 +23,9 @@ steps:
 - script: |
     sudo apt-get update
     sudo apt-get install -y openjdk-11-jre
-    wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.4.1.tgz
+    wget https://downloads.apache.org//jmeter/binaries/apache-jmeter-5.6.3.tgz
     tar -xvzf apache-jmeter-5.4.1.tgz
-    export JMETER_HOME=$(pwd)/apache-jmeter-5.4.1
+    export JMETER_HOME=$(pwd)/apache-jmeter-5.6.3
     export PATH=$PATH:$JMETER_HOME/bin
   displayName: 'Install JMeter'
 
