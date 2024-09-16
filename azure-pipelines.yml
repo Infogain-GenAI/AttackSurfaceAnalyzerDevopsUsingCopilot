@@ -37,12 +37,12 @@ steps:
   displayName: 'Build .NET Application'
 
 - script: |
-    dotnet run --project path/to/your/project.csproj --configuration $(buildConfiguration) &
+    dotnet run --project /home/vsts/work/1/s/Cli/Cli.csproj --configuration $(buildConfiguration) &
     sleep 30
   displayName: 'Start .NET Application'
 
 - script: |
-    jmeter -n -t path/to/your/test-plan.jmx -l path/to/your/results.jtl
+    jmeter -n -t /home/vsts/work/1/s/Cli/test-plan.jmx -l /home/vsts/work/1/s/Cli/results.jtl
   displayName: 'Run JMeter tests'
 
 - task: PublishTestResults@2
